@@ -1,9 +1,12 @@
 # simple_calendly_api
 A simple PHP library for Calendly API
 
-Usage:
+# Example Usage:
+
+include('calendly_api.php');
 
 $calendly_api = new calendly_api('YOUR_API_KEY_HERE');
+
 $result = $calendly_api->test();
 
 print_r($result);
